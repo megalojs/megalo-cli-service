@@ -28,5 +28,5 @@ npm run dev:wechat
 
 控制台参数文档参考[这里](https://github.com/megalojs/megalo-env-plugin#%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%8F%82%E6%95%B0)
 
-## demo
+## demo
 https://github.com/bigmeow/megalo-demo
