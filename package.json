@@ -40,7 +40,7 @@
   "peerDependencies": {
     "@megalo/entry": "^0.1.1",
     "@megalo/env-plugin": "^1.0.1",
-    "@megalo/target": "^0.5.8",
+    "@megalo/target": "^0.5.5",
     "@megalo/template-compiler": "^0.7.3"
   },
   "repository": {
