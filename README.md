@@ -49,5 +49,14 @@ module.exports = {
 ```
 ###
 
+## 注意
+`@megalo/cli-service` 对项目目录结构有一定要求, 例如：
+- `src` 目录下一定要有 `app.js` 文件
+- 小程序原生组件要放在 `src/native` 文件夹下
+
 ## demo
 https://github.com/bigmeow/megalo-demo
+
+## TODO
+- 集成到 `megalo-cli`
+- typescript 支持
