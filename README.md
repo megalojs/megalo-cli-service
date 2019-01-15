@@ -30,7 +30,7 @@ npm run dev:wechat
 
 ## 修改配置
 
-如果你觉得webpack配置不满足项目需求，你可以在项目根目录下，新建一个`megalo.config.js`文件，书写自己的配置并导出，目前该配置文件的默认配置如下：
+如果你觉得webpack配置不满足项目需求，你可以在项目根目录下，新建一个`megalo.config.js`文件，书写自己的配置并导出，目前该配置文件的默认配置如下（均为选填）：
 ```js
 module.exports = {
   // 构件生产模式时的配置（仅在process.env.NODE_ENV === 'production' 时该选项生效）
