@@ -15,7 +15,7 @@ npm i @megalo/entry @megalo/env-plugin @megalo/target @megalo/template-compiler 
 ## 使用
 
 在项目根目录的`package.json`文件中的`scripts`选项加上一条:
-```json
+```json
 "scripts": {
   "dev:wechat": "megalo-cli-service --mode development --platform wechat"
 }
@@ -41,7 +41,8 @@ module.exports = {
     sourceMap: 'none'
   },
   configureWebpack: config => {
-    // 你可以在这里修改webpack的配置并返回
+    // 你可以在这里修改webpack的配置并返回,或者直接创建一个新的webpack配置对象返回;
+    // 你的配置将被 webpack-merge 合并 (https://github.com/survivejs/webpack-merge)
     return config
   }
 }
