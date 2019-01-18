@@ -57,7 +57,7 @@ module.exports = {
 
 ## 注意
 `@megalo/cli-service` 对项目目录结构有一定要求, 例如：
-- `src` 目录下一定要有 `app.js` 文件
+- `src` 目录下一定要有 `index.js` 文件,作为入口
 
 ## demo
 https://github.com/bigmeow/megalo-demo
