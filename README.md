@@ -65,3 +65,7 @@ https://github.com/bigmeow/megalo-demo
 ## TODO
 - 集成到 `megalo-cli`
 - typescript 支持
+
+## 更新记录
+- ［0.1.1 ］ 修复windows路径兼容问题
+- ［0.1.2 ］ 内置 `@megalo/api` 插件的webpack配置
