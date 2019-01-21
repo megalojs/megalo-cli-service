@@ -53,7 +53,17 @@ module.exports = {
 }
 
 ```
-###
+## 已内置的插件配置
+以下使用以内 `megalo` 插件时，可无需更改 `webpack` 配置，直接使用：
+- megalo-api
+- megalo-px2rpx-loader
+- megalo-vhtml-plugin
+- megalo-env-plugin
+
+内置的其他的 `webpack` 配置：
+- eslint  如果不需要启用，直接干掉项目根目录下的 `.eslintrc.js`  文件即可
+- babel 转 es5
+- 编译、压缩、混淆等
 
 ## 注意
 `@megalo/cli-service` 对项目目录结构有一定要求, 例如：
