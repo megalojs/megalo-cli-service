@@ -55,10 +55,10 @@ module.exports = {
 ```
 ## 已内置的插件配置
 以下使用以内 `megalo` 插件时，可无需更改 `webpack` 配置，直接使用：
-- megalo-api
-- megalo-px2rpx-loader
-- megalo-vhtml-plugin
-- megalo-env-plugin
+- [megalo-api](https://github.com/megalojs/megalo-api)  （重新封装各个端中的API，由 megalo 统一对外抛出方法名）
+- [megalo-px2rpx-loader](https://github.com/megalojs/megalo-px2rpx-loader)  (将项目中的 `px` 单位统一转成 `rpx` 单位)
+- [megalo-vhtml-plugin](https://github.com/megalojs/megalo-vhtml-plugin)  （富文本插件）
+- [megalo-env-plugin](https://github.com/megalojs/megalo-env-plugin)   (环境变量设置、替换)
 
 内置的其他的 `webpack` 配置：
 - eslint  如果不需要启用，直接干掉项目根目录下的 `.eslintrc.js`  文件即可
