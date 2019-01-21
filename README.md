@@ -54,7 +54,7 @@ module.exports = {
 
 ```
 ## 已内置的插件配置
-以下使用以内 `megalo` 插件时，可无需更改 `webpack` 配置，直接使用：
+以下使用以下 `megalo` 插件时，直接 `npm i 插件名` 即可，无需更改 `webpack` 配置，直接使用：
 - [megalo-api](https://github.com/megalojs/megalo-api)  （重新封装各个端中的API，由 megalo 统一对外抛出方法名）
 - [megalo-px2rpx-loader](https://github.com/megalojs/megalo-px2rpx-loader)  (将项目中的 `px` 单位统一转成 `rpx` 单位)
 - [megalo-vhtml-plugin](https://github.com/megalojs/megalo-vhtml-plugin)  （富文本插件）
