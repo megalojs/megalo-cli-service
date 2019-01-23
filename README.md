@@ -61,6 +61,8 @@ module.exports = {
 - [megalo-env-plugin](https://github.com/megalojs/megalo-env-plugin)   (环境变量设置、替换)
 
 内置的其他的 `webpack` 配置：
+- css-loader、less-loader、sass-loader、stylus-loader等 css预编译相关配置
+- file-loader 处理图片资源文件
 - eslint  如果不需要启用，直接干掉项目根目录下的 `.eslintrc.js`  文件即可
 - babel 转 es5
 - 编译、压缩、混淆等
