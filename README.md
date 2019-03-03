@@ -9,8 +9,11 @@
 ## 安装
 `@megalo/cli-service` 依赖 `@megalo/entry`、`@megalo/env-plugin`、`@megalo/target` 、`@megalo/template-compiler`
 ```bash
-npm i @megalo/entry @megalo/env-plugin @megalo/target @megalo/template-compiler @megalo/cli-service -D
+npm i @megalo/entry @megalo/env-plugin @megalo/target @megalo/template-compiler @megalo/cli-service@0.1.2 -D
 ```
+
+## 注意
+`@megalo/cli-servic` 1.0 版本后 与0.X版本将不兼容
 
 ## 使用
 
